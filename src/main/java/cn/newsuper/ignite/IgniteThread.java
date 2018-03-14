@@ -8,8 +8,8 @@ import org.apache.ignite.IgniteCache;
 public class IgniteThread implements Runnable {
     private boolean startFlag=true;
     private IgniteCache<String,String> cache;
-    private int test_rows ;
-    private int thread_num;
+    private Integer test_rows ;
+    private Integer thread_num;
 
     IgniteThread(boolean startFlag, IgniteCache<String, String> cache) {
         this.startFlag = startFlag;
